@@ -133,18 +133,6 @@ export default function RolunkPage() {
                     <p className="text-sm text-foreground">info@hungarydarts.com</p>
                   </div>
                 </div>
-                <div className="flex items-start gap-3">
-                  <div className="w-5 h-5 mt-0.5 flex-shrink-0 flex items-center justify-center">
-                    <svg viewBox="0 0 20 20" fill="none" className="w-4 h-4" stroke="currentColor" strokeWidth="1.5">
-                      <path d="M10 2C6.686 2 4 4.686 4 8c0 4.418 6 10 6 10s6-5.582 6-10c0-3.314-2.686-6-6-6z" strokeLinecap="round" strokeLinejoin="round" />
-                      <circle cx="10" cy="8" r="2" strokeLinecap="round" strokeLinejoin="round" />
-                    </svg>
-                  </div>
-                  <div>
-                    <p className="text-xs text-muted-foreground uppercase font-semibold tracking-wide mb-0.5">Helyszín</p>
-                    <p className="text-sm text-foreground">Magyarország</p>
-                  </div>
-                </div>
               </div>
             </div>
             <ContactForm />
